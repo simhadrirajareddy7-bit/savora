@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVORA | Modern Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ANNOUNCEMENT -->
+    <div class="announcement">
+        A LITTLE EXTRA MAGIC, EVERY DAY ✦ OPEN DAILY 11 AM – 11 PM
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <a class="brand" href="#home">SAVORA<span>.</span></a>
+
+        <nav class="main-nav">
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#contact">Find a Table ↗</a>
+
+        <button class="menu-toggle"
+        onclick="document.querySelector('.main-nav').classList.toggle('open')">
+            ☰
+        </button>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-shade"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">GOOD FOOD. GOOD MOOD. GOOD COMPANY.</p>
+
+                <h1>
+                    Made with passion.<br>
+                    <em>Served with soul.</em>
+                </h1>
+
+                <p class="hero-copy">
+                    A fresh take on the flavours you love.
+                    Gather around, slow down, and make room
+                    for something delicious.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#menu" class="button button-gold">
+                        Explore The Menu ↗
+                    </a>
+
+                    <a href="#story" class="text-link">
+                        Discover Our Story →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="intro section-wrap" id="story">
+
+            <div class="intro-image">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85"
+                alt="Restaurant interior">
+            </div>
+
+            <div class="intro-copy">
+                <p class="eyebrow">A PLACE TO COME TOGETHER</p>
+
+                <h2>
+                    More than a meal.<br>
+                    <em>It's a feeling.</em>
+                </h2>
+
+                <p class="body-copy">
+                    At SAVORA, we believe the best memories
+                    happen around a table. We bring seasonal
+                    ingredients, thoughtful cooking and
+                    creative flavours together.
+                </p>
+
+                <p class="body-copy">
+                    From the first hello to the last bite,
+                    our team is here to make you feel at home.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    More About Us →
+                </a>
+
+                <div class="signature">The SAVORA Team</div>
+            </div>
+        </section>
+
+        <!-- FOOD MENU -->
+        <section class="menu-section" id="menu">
+
+            <div class="section-wrap">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">FRESH FROM OUR KITCHEN</p>
+
+                        <h2>
+                            A menu worth<br>
+                            <em>gathering for.</em>
+                        </h2>
+                    </div>
+
+                    <p class="heading-side">
+                        Seasonal favourites, familiar comforts
+                        and new discoveries. Made fresh,
+                        served with care.
+                    </p>
+                </div>
+
+                <div class="menu-grid">
+
+                    <article class="food-card">
+                        <div class="food-photo">
+                            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+                            alt="Pasta">
+                            <span class="food-tag">CHEF'S PICK</span>
+                        </div>
+
+                        <div class="food-info">
+                            <div>
+                                <h3>Truffle Garden Pasta</h3>
+                                <p>Fresh herbs · Parmesan · Creamy sauce</p>
+                            </div>
+                            <strong>₹420</strong>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="food-photo">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+                            alt="Burger">
+                            <span class="food-tag">FAVOURITE</span>
+                        </div>
+
+                        <div class="food-info">
+                            <div>
+                                <h3>SAVORA Burger</h3>
+                                <p>Grilled patty · Cheddar · House sauce</p>
+                            </div>
+                            <strong>₹360</strong>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="food-photo">
+                            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85"
+                            alt="Fresh salad">
+                        </div>
+
+                        <div class="food-info">
+                            <div>
+                                <h3>Garden Glow Bowl</h3>
+                                <p>Seasonal greens · Avocado · Citrus</p>
+                            </div>
+                            <strong>₹290</strong>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="food-photo">
+                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=85"
+                            alt="Berry cake">
+                        </div>
+
+                        <div class="food-info">
+                            <div>
+                                <h3>Berry Velvet Cake</h3>
+                                <p>Soft sponge · Fresh berries · Cream</p>
+                            </div>
+                            <strong>₹240</strong>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="menu-bottom">
+                    <span>GOOD INGREDIENTS. NO SHORTCUTS.</span>
+
+                    <a href="#contact" class="button button-dark">
+                        Ask For Full Menu ↗
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SPECIAL OFFER -->
+        <section class="offer-banner">
+
+            <div class="offer-image">
+                <img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=1200&q=85"
+                alt="Special restaurant dish">
+            </div>
+
+            <div class="offer-content">
+                <p class="eyebrow">A REASON TO MAKE IT A DATE</p>
+
+                <h2>
+                    Two plates.<br>
+                    <em>One lovely evening.</em>
+                </h2>
+
+                <p>
+                    Make your midweek a little brighter.
+                    Enjoy our special dinner-for-two experience
+                    every Wednesday.
+                </p>
+
+                <a href="#contact" class="button button-gold">
+                    Explore The Offer ↗
+                </a>
+            </div>
+        </section>
+
+        <!-- CUSTOMER REVIEWS -->
+        <section class="reviews-section section-wrap" id="reviews">
+
+            <div class="reviews-title">
+                <p class="eyebrow">KIND WORDS, FULL HEARTS</p>
+
+                <h2>
+                    Don't just take<br>
+                    <em>our word for it.</em>
+                </h2>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <blockquote>
+                    "Such a lovely atmosphere and the food
+                    was genuinely wonderful. Every detail
+                    felt thoughtful. Already planning our
+                    next visit!"
+                </blockquote>
+
+                <div class="review-person">
+                    <div class="avatar">A</div>
+                    <div>
+                        <strong>Ananya R.</strong>
+                        <span>Guest at SAVORA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+
+                <blockquote>
+                    "The perfect place for a relaxed dinner
+                    with friends. Great flavours, warm
+                    service and amazing desserts."
+                </blockquote>
+
+                <div class="review-person">
+                    <div class="avatar">K</div>
+                    <div>
+                        <strong>Karthik M.</strong>
+                        <span>Guest at SAVORA</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="visit-section" id="contact">
+
+            <div class="visit-content">
+                <p class="eyebrow">YOUR TABLE IS WAITING</p>
+
+                <h2>
+                    Come hungry.<br>
+                    <em>Leave happy.</em>
+                </h2>
+
+                <p>
+                    Good food tastes even better when shared.
+                    We'd love to welcome you.
+                </p>
+
+                <a href="mailto:hello@savora.example"
+                class="button button-gold">
+                    Make An Enquiry ↗
+                </a>
+            </div>
+
+            <div class="visit-details">
+
+                <div>
+                    <span class="detail-label">FIND US</span>
+                    <p>
+                        12 Riverside Avenue<br>
+                        Vijayawada, Andhra Pradesh
+                    </p>
+                </div>
+
+                <div>
+                    <span class="detail-label">OPENING HOURS</span>
+                    <p>
+                        Monday – Sunday<br>
+                        11 AM – 11 PM
+                    </p>
+                </div>
+
+                <div>
+                    <span class="detail-label">SAY HELLO</span>
+                    <p>
+                        +91 98765 43210<br>
+                        hello@savora.example
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <a class="brand" href="#home">SAVORA<span>.</span></a>
+
+        <p>Made for good moments and great meals.</p>
+
+        <div class="footer-links">
+            <a href="#home">Instagram</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <small>
+            © 2026 SAVORA. Student Web Design Project.
+        </small>
+
+    </footer>
+
+</body>
+</html>
